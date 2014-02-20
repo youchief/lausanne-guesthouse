@@ -1,0 +1,918 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-02-18 16:38+0000\n"
+"PO-Revision-Date: 2014-02-18 17:40+0100\n"
+"Last-Translator: Cyril <cyril@3xw.ch>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+
+#: Controller/ContactsController.php:31
+msgid "Thank you for your message. We contact you soon!"
+msgstr ""
+
+#: Controller/ContactsController.php:34;79;101
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:60;94;120
+msgid "Invalid contact"
+msgstr ""
+
+#: Controller/ContactsController.php:76;98
+msgid "The contact has been saved"
+msgstr ""
+
+#: Controller/ContactsController.php:124
+msgid "Contact deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:127
+msgid "Contact was not deleted"
+msgstr ""
+
+#: Controller/FaqsController.php:58;92;118
+msgid "Invalid faq"
+msgstr ""
+
+#: Controller/FaqsController.php:74;96
+msgid "The faq has been saved"
+msgstr ""
+
+#: Controller/FaqsController.php:77;99
+msgid "The faq could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FaqsController.php:122
+msgid "Faq deleted"
+msgstr ""
+
+#: Controller/FaqsController.php:125
+msgid "Faq was not deleted"
+msgstr ""
+
+#: Controller/LinkCategoriesController.php:44;76;101
+msgid "Invalid link category"
+msgstr ""
+
+#: Controller/LinkCategoriesController.php:59;80
+msgid "The link category has been saved"
+msgstr ""
+
+#: Controller/LinkCategoriesController.php:62;83
+msgid "The link category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LinkCategoriesController.php:105
+msgid "Link category deleted"
+msgstr ""
+
+#: Controller/LinkCategoriesController.php:108
+msgid "Link category was not deleted"
+msgstr ""
+
+#: Controller/LinksController.php:37;71;98
+msgid "Invalid link"
+msgstr ""
+
+#: Controller/LinksController.php:52;75
+msgid "The link has been saved"
+msgstr ""
+
+#: Controller/LinksController.php:55;78
+msgid "The link could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LinksController.php:102
+msgid "Link deleted"
+msgstr ""
+
+#: Controller/LinksController.php:105
+msgid "Link was not deleted"
+msgstr ""
+
+#: Controller/NewsController.php:46;54;86;111
+msgid "Invalid news"
+msgstr ""
+
+#: Controller/NewsController.php:69;90
+msgid "The news has been saved"
+msgstr ""
+
+#: Controller/NewsController.php:72;93
+msgid "The news could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:115
+msgid "News deleted"
+msgstr ""
+
+#: Controller/NewsController.php:118
+msgid "News was not deleted"
+msgstr ""
+
+#: Controller/NewsPicsController.php:40;77;104
+msgid "Invalid news pic"
+msgstr ""
+
+#: Controller/NewsPicsController.php:58;81
+msgid "The news pic has been saved"
+msgstr ""
+
+#: Controller/NewsPicsController.php:61;84
+msgid "The news pic could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsPicsController.php:108
+msgid "News pic deleted"
+msgstr ""
+
+#: Controller/NewsPicsController.php:111
+msgid "News pic was not deleted"
+msgstr ""
+
+#: Controller/RoomPicsController.php:40;75;102
+msgid "Invalid room pic"
+msgstr ""
+
+#: Controller/RoomPicsController.php:56;79
+msgid "The room pic has been saved"
+msgstr ""
+
+#: Controller/RoomPicsController.php:59;82
+msgid "The room pic could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RoomPicsController.php:106
+msgid "Room pic deleted"
+msgstr ""
+
+#: Controller/RoomPicsController.php:109
+msgid "Room pic was not deleted"
+msgstr ""
+
+#: Controller/RoomsController.php:38;53;85;110
+msgid "Invalid room"
+msgstr ""
+
+#: Controller/RoomsController.php:68;89
+msgid "The room has been saved"
+msgstr ""
+
+#: Controller/RoomsController.php:71;92
+msgid "The room could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RoomsController.php:114
+msgid "Room deleted"
+msgstr ""
+
+#: Controller/RoomsController.php:117
+msgid "Room was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:42;76;102
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:58;80
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:61;83
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:106
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:109
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:119
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Plugin/Social/Model/Datasource/FacebookSource.php:74
+#: Plugin/Social/Model/Datasource/YoutubeSource.php:93
+msgid "Transport error - could not open socket"
+msgstr ""
+
+#: Plugin/Social/Model/Datasource/FacebookSource.php:78
+#: Plugin/Social/Model/Datasource/YoutubeSource.php:96
+msgid "Transport error - HTTP status code was not 200"
+msgstr ""
+
+#: View/Contacts/admin_add.ctp:4
+msgid "Admin Add Contact"
+msgstr ""
+
+#: View/Contacts/admin_add.ctp:14 View/Contacts/admin_edit.ctp:15
+#: View/Contacts/index.ctp:63 View/Elements/footer.ctp:54
+#: View/Faqs/admin_add.ctp:17 View/Faqs/admin_edit.ctp:18
+#: View/LinkCategories/admin_add.ctp:10 View/LinkCategories/admin_edit.ctp:11
+#: View/Links/admin_add.ctp:12 View/Links/admin_edit.ctp:13
+#: View/News/admin_add.ctp:16 View/News/admin_edit.ctp:17
+#: View/NewsPics/admin_add.ctp:10 View/NewsPics/admin_edit.ctp:11
+#: View/RoomPics/admin_add.ctp:10 View/RoomPics/admin_edit.ctp:15
+#: View/Rooms/admin_add.ctp:31 View/Rooms/admin_edit.ctp:29
+#: View/Users/admin_add.ctp:11 View/Users/admin_edit.ctp:12
+msgid "Submit"
+msgstr "Envoyer"
+
+#: View/Contacts/admin_edit.ctp:4
+msgid "Admin Edit Contact"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:2 View/Elements/admin_menu.ctp:21
+msgid "Contacts"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:2 View/Faqs/admin_index.ctp:3
+#: View/Links/admin_index.ctp:2 View/News/admin_index.ctp:2
+#: View/NewsPics/admin_index.ctp:2 View/RoomPics/admin_index.ctp:2
+#: View/Rooms/admin_index.ctp:3 View/Rooms/admin_view.ctp:19
+#: View/Users/admin_index.ctp:2
+msgid "+"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:11 View/Faqs/admin_index.ctp:9
+#: View/LinkCategories/admin_view.ctp:32 View/Links/admin_index.ctp:9
+#: View/News/admin_index.ctp:8 View/NewsPics/admin_index.ctp:11
+#: View/RoomPics/admin_index.ctp:11 View/Rooms/admin_index.ctp:11
+#: View/Users/admin_index.ctp:8
+msgid "Actions"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:23 View/Faqs/admin_index.ctp:18
+#: View/LinkCategories/admin_view.ctp:43 View/Links/admin_index.ctp:21
+#: View/News/admin_index.ctp:27 View/NewsPics/admin_index.ctp:25
+#: View/RoomPics/admin_index.ctp:25 View/Rooms/admin_index.ctp:23
+#: View/Users/admin_index.ctp:17
+msgid "View"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:24 View/Faqs/admin_index.ctp:19
+#: View/LinkCategories/admin_view.ctp:44 View/Links/admin_index.ctp:22
+#: View/News/admin_index.ctp:28 View/NewsPics/admin_index.ctp:26
+#: View/RoomPics/admin_index.ctp:26 View/Users/admin_index.ctp:18
+msgid "Edit"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:25 View/Faqs/admin_index.ctp:20
+#: View/LinkCategories/admin_view.ctp:45 View/Links/admin_index.ctp:23
+#: View/News/admin_index.ctp:29 View/NewsPics/admin_index.ctp:27
+#: View/RoomPics/admin_index.ctp:27 View/Rooms/admin_index.ctp:24
+#: View/Users/admin_index.ctp:19
+msgid "Delete"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:25 View/Contacts/admin_view.ctp:40
+#: View/Faqs/admin_index.ctp:20 View/Faqs/admin_view.ctp:34
+#: View/LinkCategories/admin_view.ctp:20;45 View/Links/admin_index.ctp:23
+#: View/Links/admin_view.ctp:30 View/News/admin_index.ctp:29
+#: View/News/admin_view.ctp:30 View/NewsPics/admin_index.ctp:27
+#: View/NewsPics/admin_view.ctp:40 View/RoomPics/admin_index.ctp:27
+#: View/RoomPics/admin_view.ctp:40 View/Rooms/admin_index.ctp:24
+#: View/Rooms/admin_view.ctp:30;42 View/Users/admin_index.ctp:19
+#: View/Users/admin_view.ctp:25
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:34 View/Faqs/admin_index.ctp:29
+#: View/Links/admin_index.ctp:32 View/News/admin_index.ctp:38
+#: View/NewsPics/admin_index.ctp:36 View/RoomPics/admin_index.ctp:36
+#: View/Rooms/admin_index.ctp:33 View/Users/admin_index.ctp:28
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:39 View/Faqs/admin_index.ctp:34
+#: View/Links/admin_index.ctp:37 View/News/admin_index.ctp:43
+#: View/NewsPics/admin_index.ctp:41 View/RoomPics/admin_index.ctp:41
+#: View/Rooms/admin_index.ctp:38 View/Users/admin_index.ctp:33
+msgid "previous"
+msgstr "précédent"
+
+#: View/Contacts/admin_index.ctp:41 View/Faqs/admin_index.ctp:36
+#: View/Links/admin_index.ctp:39 View/News/admin_index.ctp:45
+#: View/NewsPics/admin_index.ctp:43 View/RoomPics/admin_index.ctp:43
+#: View/Rooms/admin_index.ctp:40 View/Users/admin_index.ctp:35
+msgid "next"
+msgstr "suivant"
+
+#: View/Contacts/admin_view.ctp:2 View/Contacts/index.ctp:9
+#: View/Elements/footer.ctp:12 View/Elements/menu.ctp:22
+msgid "Contact"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:4 View/Faqs/admin_view.ctp:4
+#: View/LinkCategories/admin_view.ctp:4;28 View/Links/admin_view.ctp:4
+#: View/News/admin_view.ctp:4 View/NewsPics/admin_view.ctp:4
+#: View/RoomPics/admin_view.ctp:4 View/Users/admin_view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:9
+msgid "Firstname"
+msgstr "Prénom"
+
+#: View/Contacts/admin_view.ctp:14
+msgid "Lastname"
+msgstr "Nom"
+
+#: View/Contacts/admin_view.ctp:19
+msgid "Email"
+msgstr "E-mail"
+
+#: View/Contacts/admin_view.ctp:24
+msgid "Phone"
+msgstr "Téléphone"
+
+#: View/Contacts/admin_view.ctp:29
+msgid "Content"
+msgstr "Message"
+
+#: View/Contacts/admin_view.ctp:39
+msgid "Edit Contact"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:40
+msgid "Delete Contact"
+msgstr ""
+
+#: View/Contacts/index.ctp:8 View/Elements/footer.ctp:7
+#: View/Elements/menu.ctp:17 View/Faqs/index.ctp:4
+#: View/LinkCategories/index.ctp:6 View/News/view.ctp:4
+#: View/Pages/access.ctp:4 View/Pages/services.ctp:5 View/Rooms/index.ctp:6
+#: View/Rooms/view.ctp:5
+msgid "Home"
+msgstr "Accueil"
+
+#: View/Contacts/index.ctp:19 View/Elements/footer.ctp:42
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: View/Contacts/index.ctp:41
+msgid "Business hours"
+msgstr "Heures d'ouverture"
+
+#: View/Contacts/index.ctp:50
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: View/Contacts/index.ctp:70
+msgid "How to find us?"
+msgstr "Comment nous trouver?"
+
+#: View/Contacts/index.ctp:79 View/Pages/access.ctp:25
+msgid "By plane"
+msgstr "En avion"
+
+#: View/Contacts/index.ctp:81 View/Pages/access.ctp:27
+msgid ""
+"From Geneva airport (Genève Cointrin): take the train to Lausanne (about 45 "
+"minutes). In Lausanne, exit the main hall, dir. train station place, and "
+"turn left; the road goes down in a tunnel. Immediately after the tunnel, "
+"take right and next right again. The Lausanne Guesthouse is about 5 minutes "
+"on foot."
+msgstr ""
+"Sortir du hall principal côté place de la gare et tourner à gauche sur "
+"l’avenue Fraisse : la route descend dans un tunnel. Immédiatement après le "
+"tunnel, prendre à droite et ensuite encore à droite. Le Lausanne Guesthouse "
+"est à 5 minutes à pied de la gare."
+
+#: View/Contacts/index.ctp:89 View/Pages/access.ctp:35
+msgid "By train"
+msgstr "En train"
+
+#: View/Contacts/index.ctp:91 View/Pages/access.ctp:37
+msgid ""
+"Exit the main hall, dir. train station place, and turn left; the road goes "
+"down in a tunnel. Immediately after the tunnel, take right and next right "
+"again. The Lausanne Guesthouse is about 5 minutes on foot."
+msgstr ""
+"Arrivée à l’aéroport de Genève-Cointrin. Prendre le train de Genève aéroport "
+"à Lausanne.De la gare de Lausanne: sortir du hall principal (côté place de "
+"la Gare) et tourner à gauche. La route descend dans un tunnel. Juste après "
+"le tunnel, tourner à droite puis à nouveau à droite. Maximum 5 minutes à "
+"pied !"
+
+#: View/Contacts/index.ctp:101 View/Pages/access.ctp:47
+msgid "By car"
+msgstr "En voiture"
+
+#: View/Contacts/index.ctp:103 View/Pages/access.ctp:49
+msgid ""
+"Motorway A1 : take the Lausanne Sud exit and follow the train station "
+"direction. On the train station place, make a “U” turn, and go back in the "
+"tunnel going down to the lake direction. Immediately after the tunnel "
+"(before the cinema “Moderne”), take the first right and next right again."
+msgstr ""
+"Autoroute A1: prendre la sortie Lausanne Sud et suivre la direction de la "
+"gare. En arrivant sur la place de la gare, tournez autour du petit rond-"
+"point et redescendez dans le tunnel. Immédiatement après le tunnel (avant le "
+"cinéma “Moderne”), prendre la première à droite puis à nouveau à droite."
+
+#: View/Contacts/index.ctp:111 View/Pages/access.ctp:57
+msgid "By foot"
+msgstr "A pied"
+
+#: View/Contacts/index.ctp:113 View/Pages/access.ctp:59
+msgid ""
+"From the train station: exit the main hall, direction train station place, "
+"and turn left. The road goes down in a tunnel. Immediately after the tunnel, "
+"take right and next right again (about 5 minutes)."
+msgstr ""
+"Depuis la gare de Lausanne: descendre l’avenue Fraisse et, immédiatement "
+"après le tunnel (avant le cinéma “Moderne”), prendre la première à droite "
+"puis à nouveau la prochaine à droite. Nous sommes à 5 minutes à pied de la "
+"gare."
+
+#: View/Elements/admin_menu.ctp:17 View/Elements/lastnews.ctp:6
+#: View/News/admin_index.ctp:2 View/News/admin_view.ctp:2 View/News/view.ctp:5
+#: View/NewsPics/admin_view.ctp:29
+msgid "News"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:18 View/Rooms/admin_index.ctp:3
+msgid "Rooms"
+msgstr "Chambres"
+
+#: View/Elements/admin_menu.ctp:19 View/Elements/footer.ctp:11
+#: View/Elements/menu.ctp:21
+msgid "FAQ"
+msgstr ""
+
+#: View/Elements/admin_menu.ctp:20 View/Elements/footer.ctp:10
+#: View/Elements/menu.ctp:20 View/LinkCategories/index.ctp:7;16
+#: View/Links/admin_index.ctp:2
+msgid "Links"
+msgstr "Liens"
+
+#: View/Elements/admin_menu.ctp:22
+msgid "Logout"
+msgstr ""
+
+#: View/Elements/footer.ctp:8 View/Elements/menu.ctp:18
+#: View/Pages/services.ctp:7;15
+msgid "Services"
+msgstr ""
+
+#: View/Elements/footer.ctp:9 View/Elements/menu.ctp:19
+#: View/Rooms/index.ctp:7;14 View/Rooms/view.ctp:6
+msgid "Rates & Reservations"
+msgstr "Tarifs et Réservations"
+
+#: View/Elements/footer.ctp:24
+msgid "Testmonials"
+msgstr "Témoignages"
+
+#: View/Elements/lastnews.ctp:17
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: View/Elements/lastpics.ctp:5
+msgid "Last Pics"
+msgstr "Dernières photos"
+
+#: View/Faqs/admin_add.ctp:4
+msgid "Admin Add Faq"
+msgstr ""
+
+#: View/Faqs/admin_edit.ctp:4
+msgid "Admin Edit Faq"
+msgstr ""
+
+#: View/Faqs/admin_index.ctp:3
+msgid "Faqs"
+msgstr ""
+
+#: View/Faqs/admin_view.ctp:2
+msgid "Faq"
+msgstr ""
+
+#: View/Faqs/admin_view.ctp:11
+msgid "Question"
+msgstr "Question"
+
+#: View/Faqs/admin_view.ctp:20
+msgid "Response"
+msgstr "Réponse"
+
+#: View/Faqs/admin_view.ctp:33
+msgid "Edit Faq"
+msgstr ""
+
+#: View/Faqs/admin_view.ctp:34
+msgid "Delete Faq"
+msgstr ""
+
+#: View/LinkCategories/admin_add.ctp:4
+msgid "Admin Add Link Category"
+msgstr ""
+
+#: View/LinkCategories/admin_edit.ctp:4
+msgid "Admin Edit Link Category"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:2 View/Links/admin_view.ctp:19
+msgid "Link Category"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:19
+msgid "Edit Link Category"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:20
+msgid "Delete Link Category"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:24
+msgid "Related Links"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:29 View/Links/admin_view.ctp:9
+#: View/News/admin_view.ctp:9
+msgid "Title"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:30 View/Links/admin_view.ctp:14
+#: View/NewsPics/admin_view.ctp:9 View/RoomPics/admin_view.ctp:9
+msgid "Url"
+msgstr ""
+
+#: View/LinkCategories/admin_view.ctp:31
+msgid "Link Category Id"
+msgstr ""
+
+#: View/Links/admin_add.ctp:4
+msgid "Admin Add Link"
+msgstr ""
+
+#: View/Links/admin_edit.ctp:4
+msgid "Admin Edit Link"
+msgstr ""
+
+#: View/Links/admin_view.ctp:2
+msgid "Link"
+msgstr ""
+
+#: View/Links/admin_view.ctp:29
+msgid "Edit Link"
+msgstr ""
+
+#: View/Links/admin_view.ctp:30
+msgid "Delete Link"
+msgstr ""
+
+#: View/News/admin_add.ctp:4
+msgid "Admin Add News"
+msgstr ""
+
+#: View/News/admin_edit.ctp:4
+msgid "Admin Edit News"
+msgstr ""
+
+#: View/News/admin_index.ctp:15
+msgid "Add Pic"
+msgstr ""
+
+#: View/News/admin_index.ctp:19
+msgid "Edit Pic"
+msgstr ""
+
+#: View/News/admin_view.ctp:14
+msgid "Body"
+msgstr ""
+
+#: View/News/admin_view.ctp:19
+msgid "Pic"
+msgstr ""
+
+#: View/News/admin_view.ctp:29
+msgid "Edit News"
+msgstr ""
+
+#: View/News/admin_view.ctp:30
+msgid "Delete News"
+msgstr ""
+
+#: View/NewsPics/admin_add.ctp:4 View/NewsPics/admin_edit.ctp:4
+msgid "Admin Add News Pic"
+msgstr ""
+
+#: View/NewsPics/admin_index.ctp:2
+msgid "News Pics"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:2
+msgid "News Pic"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:14 View/RoomPics/admin_view.ctp:14
+msgid "Ext"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:19 View/RoomPics/admin_view.ctp:19
+msgid "Type"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:24 View/RoomPics/admin_view.ctp:24
+msgid "Size"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:39
+msgid "Edit News Pic"
+msgstr ""
+
+#: View/NewsPics/admin_view.ctp:40
+msgid "Delete News Pic"
+msgstr ""
+
+#: View/Pages/access.ctp:15
+msgid "Access"
+msgstr "Accès"
+
+#: View/Pages/access.ctp:16
+msgid "We are located close to the Lausanne train station (5 minutes on foot)"
+msgstr "Nous sommes situés à 5 minutes à pied de la gare de Lausanne"
+
+#: View/Pages/home.ctp:34
+msgid "The Family Story"
+msgstr "L'histoire de la famille"
+
+#: View/Pages/home.ctp:37
+msgid ""
+"of the Lausanne GuestHouse began in 1997 with the search for a building "
+"adapted to the ideas and the business-plan of the Elmiger brothers and "
+"sisters (Christian, Anne-Marie et Jodoc). The project matured and developed "
+"over a 3 year period before the actual construction work, renovation and "
+"transformation began. This took another year, during which Laura joined the "
+"family. Finally, on 3rd August 2001, the “Lausanne GuestHouse & Backpacker” "
+"opened in its present location."
+msgstr ""
+"du Lausanne GuestHouse commence en 1997 avec la recherche d’un bâtiment "
+"susceptible de satisfaire les projets et le business-plan de la fraterie "
+"Elmiger (Christian, Anne-Marie et Jodoc). Durant 3 ans, le projet mûrit, se "
+"développe et évolue pour aboutir à plus d’un an de travaux de rénovation et "
+"de transformation. Le 3 août 2001, la famille élargie à Laura, ouvre le « "
+"Lausanne GuestHouse & Backpacker » dans le bâtiment que vous connaissez"
+
+#: View/Pages/home.ctp:45
+msgid "Our ambition"
+msgstr "Notre ambition"
+
+#: View/Pages/home.ctp:46
+msgid ""
+"is to satisfy a demanding clientele with high standards of service, "
+"cleanliness and professionalism, offering the best value for money, while "
+"insuring the viability and permanence of our business entreprise. At the "
+"same time, we try to promote a dynamic and economically attractive image of "
+"tourism in the Lausanne region as well as in the rest of Switzerland."
+msgstr ""
+"est de satisfaire une clientèle exigeante en termes de service, de propreté "
+"et de professionnalisme, pour un rapport qualité-prix imbattable, tout en "
+"nous permettant de garantir la pérennité de notre entreprise. Nous désirons "
+"par ailleurs contribuer à l’image dynamique et économiquement intéressante "
+"du tourisme lausannois et suisse."
+
+#: View/Pages/home.ctp:53
+msgid "Ethically"
+msgstr "Ethique"
+
+#: View/Pages/home.ctp:54
+msgid ""
+"\n"
+"we support socially responsible employment standards. The working conditions "
+"and salaries we offer are therefore much better than average. Our employees "
+"enjoy a large degree of job security. We do not employ undeclared personnel, "
+"people without work permits or illegal immigrants. The core of our cleaning "
+"staff has not changed since 2001!\n"
+" <br>\n"
+"Ecology (see the “Ecology” tab) is also our concern: we bear the Minergie "
+"quality label, observe a strict policy of waste separation and support "
+"public transport (95% of our clientele) through our proximity to the "
+"Lausanne train station."
+msgstr ""
+"Nous favorisons une approche sociale avec des conditions de travail et "
+"salariales largement en dessus de la moyenne. Nos employés bénéficient "
+"d’emplois stables et sûrs. Nous n’employons pas de travailleurs au noir, "
+"sans permis ou clandestins. Depuis 2001, le « noyau » des employés n’a pas "
+"changé ! <br> Le volet écologique (voir l’onglet « Ecologie ») complète le "
+"tableau, avec le Label Minergie, la stricte politique de tri des déchets et "
+"la proximité de la gare de Lausanne, favorisant les transports en commun "
+"(95% de notre clientèle)."
+
+#: View/Pages/services.ctp:16
+msgid "80 beds, all rooms facing Lake Geneva and the Alps."
+msgstr "80 lits, toutes les chambres face au Lac Léman et aux Alpes."
+
+#: View/Pages/services.ctp:22
+msgid "Double rooms with private bathrooms."
+msgstr "Chambres doubles avec salles de bain privées."
+
+#: View/Pages/services.ctp:30
+msgid "Double rooms sharing bathroom<br> (2 rooms share 1 bathroom)"
+msgstr ""
+"Chambres doubles partageant une salle de bain <br>(2 chambres se partagent 1 "
+"salle de bain)"
+
+#: View/Pages/services.ctp:39
+msgid "Four bedded rooms (dormitory with bunk beds) sharing bathrooms."
+msgstr "Dortoirs quadruples (lits superposés), salles de bains à l’étage."
+
+#: View/Pages/services.ctp:47
+msgid ""
+"Family four bedded rooms (with bunk beds) with private or shared bathrooms."
+msgstr ""
+"Chambres famille pour 4 (lits superposés), salles de bain privées ou "
+"partagées."
+
+#: View/Pages/services.ctp:58
+msgid "Equipped for the disabled."
+msgstr "Equipement handicapés."
+
+#: View/Pages/services.ctp:66
+msgid "5 high speed Internet stations (ADSL) with printer."
+msgstr "5 stations Internet haut débit et imprimante (payant)."
+
+#: View/Pages/services.ctp:75
+msgid "Spacious quiet garden with free Barbecue."
+msgstr "Jardin et terrasse, barbecue gratuit"
+
+#: View/Pages/services.ctp:83
+msgid "Large kitchen facility with dining room."
+msgstr "Jardin et terrasse, barbecue gratuit"
+
+#: View/Pages/services.ctp:95
+msgid "Free Wifi with your own computer"
+msgstr "Wifi gratuit"
+
+#: View/Pages/services.ctp:103
+msgid "Friends hang out room."
+msgstr "Espace de détente."
+
+#: View/Pages/services.ctp:112
+msgid "Hot & cold drinks + snacks distributors."
+msgstr "Distributeurs de boissons chaudes et froides + snacks."
+
+#: View/Pages/services.ctp:120
+msgid "Laundry facility, open 24 hours."
+msgstr ""
+"Buanderie avec machine à laver et à sécher (payant) + planche et fer à "
+"repasser"
+
+#: View/Pages/services.ctp:131
+msgid "Private lockers."
+msgstr "Local sécurisé pour vos vélos."
+
+#: View/Pages/services.ctp:139
+msgid "Private parking."
+msgstr "Parking privé. (payant)"
+
+#: View/Pages/services.ctp:148
+msgid "Free Lausanne transport card (bus+train+metro)."
+msgstr "Lausanne transport card gratuite (bus-train-métro)"
+
+#: View/Pages/services.ctp:156
+msgid "Except for garden, a non smoking hotel."
+msgstr "Hôtel strictement non fumeur excepté au jardin."
+
+#: View/Pages/services.ctp:161
+msgid "All bathrooms, even private bathrooms, are opposite the rooms"
+msgstr ""
+"Toutes les salles de bain, y compris les privées, sont en face des chambres, "
+"séparées par le couloir."
+
+#: View/RoomPics/admin_add.ctp:4
+msgid "Admin Add Room Pic"
+msgstr ""
+
+#: View/RoomPics/admin_edit.ctp:4
+msgid "Admin Edit Room Pic"
+msgstr ""
+
+#: View/RoomPics/admin_index.ctp:2
+msgid "Room Pics"
+msgstr ""
+
+#: View/RoomPics/admin_view.ctp:2
+msgid "Room Pic"
+msgstr ""
+
+#: View/RoomPics/admin_view.ctp:29
+msgid "Room"
+msgstr ""
+
+#: View/RoomPics/admin_view.ctp:39
+msgid "Edit Room Pic"
+msgstr ""
+
+#: View/RoomPics/admin_view.ctp:40
+msgid "Delete Room Pic"
+msgstr ""
+
+#: View/Rooms/admin_add.ctp:9
+msgid "Admin Add Room"
+msgstr ""
+
+#: View/Rooms/admin_edit.ctp:8
+msgid "Admin Edit Room"
+msgstr ""
+
+#: View/Rooms/admin_view.ctp:13 View/Rooms/view.ctp:29
+msgid "Book"
+msgstr ""
+
+#: View/Rooms/admin_view.ctp:19
+msgid "Photos"
+msgstr ""
+
+#: View/Rooms/admin_view.ctp:30
+msgid "Delete Pic"
+msgstr ""
+
+#: View/Rooms/admin_view.ctp:41
+msgid "Edit Room"
+msgstr ""
+
+#: View/Rooms/admin_view.ctp:42
+msgid "Delete Room"
+msgstr ""
+
+#: View/Rooms/view.ctp:31
+msgid "Edit my booking"
+msgstr ""
+
+#: View/Users/admin_add.ctp:4
+msgid "Admin Add User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:4
+msgid "Admin Edit User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/admin_view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Users/admin_view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Users/admin_view.ctp:24
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:25
+msgid "Delete User"
+msgstr ""
+
+#: View/Users/login.ctp:24
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/login.ctp:32
+msgid "Login"
+msgstr ""
+
+#: /Users/cyril/Sites/lgh/app/Model/Contact.php:validation for field
+#: firstname;validation lastname;validation content Model/Faq.php:validation
+#: question;validation response Model/LinkCategory.php:validation name
+#: /Users/cyril/Sites/lgh/app/Model/News.php:validation title;validation body
+#: /Users/cyril/Sites/lgh/app/Model/Room.php:validation name;validation
+#: description Model/User.php:validation username;validation password
+msgid "notEmpty"
+msgstr ""
+
+#: /Users/cyril/Sites/lgh/app/Model/Contact.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: Model/Link.php:validation for field link_category_id
+#: /Users/cyril/Sites/lgh/app/Model/NewsPic.php:validation news_id
+#: /Users/cyril/Sites/lgh/app/Model/Room.php:validation min_price;validation
+#: max_price /Users/cyril/Sites/lgh/app/Model/RoomPic.php:validation room_id
+msgid "numeric"
+msgstr ""

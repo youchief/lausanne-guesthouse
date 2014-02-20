@@ -1,0 +1,36 @@
+/* 
+    Document   : custom
+    Created on : 9 janv. 2014, 13:44:48
+    Author     : cyril
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.service{
+        text-align: center;
+}
+
+.service h1{
+        border-bottom: none;
+}
+
+#map{
+        height:300px;
+}
+
+.description-room-index{
+    height:480px;
+}
+
+.back-service{
+    height: 400px;
+}
+
+.thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
