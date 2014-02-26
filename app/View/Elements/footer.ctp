@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <h3>Menu</h3>
                 <ul class="nav-footer">
-                    <li class="active"><?php echo $this->Html->link(__('Home'), array('controller' => 'pages', 'action' => 'display', 'home')) ?></li>
+                    <li><?php echo $this->Html->link(__('Home'), array('controller' => 'pages', 'action' => 'display', 'home')) ?></li>
                     <li><?php echo $this->Html->link(__('Services'), array('controller' => 'pages', 'action' => 'display', 'services')) ?></li>
                     <li><?php echo $this->Html->link(__('Rates & Reservations'), array('controller' => 'rooms', 'action' => 'index')) ?></li>
                     <li><?php echo $this->Html->link(__('Links'), array('controller' => 'linkcategories', 'action' => 'index')) ?></li>
@@ -42,18 +42,18 @@
                 <h3><?php echo __('Labels')?></h3>
                 <div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-3">
                         <?php echo $this->Html->image('youhou.png', array('width' => '100%')) ?>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-3">
                         <?php echo $this->Html->image('exellence.png', array('width' => '100%')) ?>
                     </div>
                     </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-3">
                         <?php echo $this->Html->image('logo_spo1b.jpg', array('width' => '100%')) ?>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-3">
                         <?php echo $this->Html->image('top100.png', array('width' => '100%')) ?>
                     </div>
 

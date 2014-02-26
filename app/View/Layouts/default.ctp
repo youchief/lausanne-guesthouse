@@ -19,84 +19,85 @@ $cakeDescription = __d('cake_dev', 'Lausannne GuestHouse & Backpacker');
 ?>
 <!DOCTYPE html>
 <html>
-        <head>
-                <?php echo $this->Html->charset(); ?>
-                <title>
-                        <?php echo $cakeDescription ?>:
-                        <?php echo $title_for_layout; ?>
-                </title>
-                <?php
-                echo $this->Html->meta('icon');
+<head>
+    <?php echo $this->Html->charset(); ?>
+    <title>
+        <?php echo $cakeDescription ?>:
+        <?php echo $title_for_layout; ?>
+    </title>
+    <?php
+    echo $this->Html->meta('icon');
 
-                echo $this->Html->css(array('bootstrap.min', 'font-awesome', 'neat', 'custom'));
-                echo $this->Html->script(array('jquery.min', 'bootstrap.min'))
-                ?>
+    echo $this->Html->css(array('bootstrap.min', 'font-awesome', 'neat', 'custom'));
+    echo $this->Html->script(array('jquery.min', 'bootstrap.min'))
+    ?>
 
-                <!--Use google font-->
-                <link href = "http://fonts.googleapis.com/css?family=Open+Sans|Dosis:200,400,800" rel = "stylesheet" type = "text/css" />
+    <!--Use google font-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:200,400,800" rel="stylesheet" type="text/css"/>
 
-                <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries-->
-                <!--[if lt IE 9]>
-                <script src = "js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-                <?php
-                echo $this->fetch('meta');
-                echo $this->fetch('css');
-                echo $this->fetch('script');
-                ?>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-        </head>
-        <body>
-                <script>
-                        (function(i, s, o, g, r, a, m) {
-                                i['GoogleAnalyticsObject'] = r;
-                                i[r] = i[r] || function() {
-                                        (i[r].q = i[r].q || []).push(arguments)
-                                }, i[r].l = 1 * new Date();
-                                a = s.createElement(o),
-                                        m = s.getElementsByTagName(o)[0];
-                                a.async = 1;
-                                a.src = g;
-                                m.parentNode.insertBefore(a, m)
-                        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <!--HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <?php
+    echo $this->fetch('meta');
+    echo $this->fetch('css');
+    echo $this->fetch('script');
+    ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-                        ga('create', 'UA-44952673-7', 'lausanne-guesthouse.ch');
-                        ga('send', 'pageview');
+    ga('create', 'UA-44952673-7', 'lausanne-guesthouse.ch');
+    ga('send', 'pageview');
 
-                </script>
-                <div id="container">
-                        <?php echo $this->element('menu') ?>
+</script>
+<div id="container">
+    <?php echo $this->element('menu') ?>
 
-                        <?php echo $this->fetch('content'); ?>
-                        <?php echo $this->element('footer'); ?>
+    <?php echo $this->fetch('content'); ?>
+    <?php echo $this->element('footer'); ?>
 
-                </div>
-                <?php echo $this->element('sql_dump'); ?>
+</div>
+<?php echo $this->element('sql_dump'); ?>
 
-                <?php //echo $this->Html->script('jquery.event.move', 'responsive-slider', 'responsive-calendar') ?>
-
-
-                <script type="text/javascript">
-                        $(document).ready(function() {
-                                function reduceMenu() {
-                                        $('#mainMenu').addClass('scroll');
-                                }
-
-                                function expandMenu() {
-                                        $('#mainMenu').removeClass('scroll');
-                                }
-
-                                $(window).on('scroll', function() {
-                                        if ($(window).scrollTop() > 81) {
-                                                reduceMenu();
-                                        } else {
-                                                expandMenu();
-                                        }
-                                });
+<?php //echo $this->Html->script('jquery.event.move', 'responsive-slider', 'responsive-calendar') ?>
 
 
-                        });
-                </script> 
-        </body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        function reduceMenu() {
+            $('#mainMenu').addClass('scroll');
+        }
+
+        function expandMenu() {
+            $('#mainMenu').removeClass('scroll');
+        }
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 81) {
+                reduceMenu();
+            } else {
+                expandMenu();
+            }
+        });
+
+
+    });
+</script>
+ 
+</body>
 </html>

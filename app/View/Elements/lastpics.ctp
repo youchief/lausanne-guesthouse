@@ -4,15 +4,12 @@
                         <div class="col-md-12">
                                 <h1 class="info-head"><?php echo __('Last Pics') ?></h1>
                                
-                                <div class="info-row">
+                                <div class="info-row"  id="masonry_container">
                                         <?php $pics = $this->requestAction(array('controller' => 'api', 'action' => 'flickr')); ?>
                                         <?php if (!empty($pics['photos']['photo'])): ?>
                                                 <?php foreach ($pics['photos']['photo'] as $photo): ?>
-                                                        <div class="col-xs-6 col-sm-4 col-md-3">
+                                                        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 masonry_item">
                                                                 <div class="thumbnail info-thumbnail background-clouds color-text">
-                                                                        <div class="service">
-                                                                                <div class="service-name"><h3><span class="fa fa-search-plus"></span></h3></div>
-                                                                        </div>
                                                                         <?php echo $this->Html->image('http://farm' . $photo['farm'] . '.static.flickr.com/' . $photo['server'] . DS . $photo['id'] . '_' . $photo['secret'] . '_b.jpg', array('width' => '%')); ?>
                                                                 </div>
                                                         </div>
@@ -27,3 +24,12 @@
                 </div>
         </div>
 </section>
+<?php echo $this->Html->script('masonry')?>
+<script>
+    var container = document.querySelector('#masonry_container');
+    var msnry = new Masonry( container, {
+// options
+        //columnWidth: 400,
+        itemSelector: '.masonry_item'
+    });
+</script>
