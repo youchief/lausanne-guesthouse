@@ -2,51 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24109bdf-93a7-4244-81c4-0db4ae67f3d5" name="Default" comment="chage label size">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/lausanne-guesthouse.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/masonry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Lib/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/trois/actions/controller_actions.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/trois/views/form.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/trois/views/index.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/trois/views/view.ctp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ApiController.php" afterPath="$PROJECT_DIR$/app/Controller/ApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Network/CakeRequest.php" afterPath="$PROJECT_DIR$/lib/Cake/Network/CakeRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/Network/CakeRequestTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/Network/CakeRequestTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Network/CakeResponse.php" afterPath="$PROJECT_DIR$/lib/Cake/Network/CakeResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Routing/Route/CakeRoute.php" afterPath="$PROJECT_DIR$/lib/Cake/Routing/Route/CakeRoute.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/TestSuite/Fixture/CakeTestFixture.php" afterPath="$PROJECT_DIR$/lib/Cake/TestSuite/Fixture/CakeTestFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/TestSuite/CakeTestFixtureTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/TestSuite/CakeTestFixtureTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Utility/CakeTime.php" afterPath="$PROJECT_DIR$/lib/Cake/Utility/CakeTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Controller/Controller.php" afterPath="$PROJECT_DIR$/lib/Cake/Controller/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Command/Task/ControllerTask.php" afterPath="$PROJECT_DIR$/lib/Cake/Console/Command/Task/ControllerTask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Utility/Debugger.php" afterPath="$PROJECT_DIR$/lib/Cake/Utility/Debugger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Error/ExceptionRenderer.php" afterPath="$PROJECT_DIR$/lib/Cake/Error/ExceptionRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/View/Helper/FormHelper.php" afterPath="$PROJECT_DIR$/lib/Cake/View/Helper/FormHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/View/Helper/FormHelperTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/View/Helper/FormHelperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/View/Helper.php" afterPath="$PROJECT_DIR$/lib/Cake/View/Helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/View/HelperTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/View/HelperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Model/Model.php" afterPath="$PROJECT_DIR$/lib/Cake/Model/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Datasource/Database/MysqlTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Datasource/Database/MysqlTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/View/Helper/PaginatorHelper.php" afterPath="$PROJECT_DIR$/lib/Cake/View/Helper/PaginatorHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Model/Datasource/Database/Postgres.php" afterPath="$PROJECT_DIR$/lib/Cake/Model/Datasource/Database/Postgres.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Command/SchemaShell.php" afterPath="$PROJECT_DIR$/lib/Cake/Console/Command/SchemaShell.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Model/Behavior/TranslateBehavior.php" afterPath="$PROJECT_DIR$/lib/Cake/Model/Behavior/TranslateBehavior.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Behavior/TranslateBehaviorTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Behavior/TranslateBehaviorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Model/Behavior/TreeBehavior.php" afterPath="$PROJECT_DIR$/lib/Cake/Model/Behavior/TreeBehavior.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Behavior/TreeBehaviorScopedTest.php" afterPath="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Behavior/TreeBehaviorScopedTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/VERSION.txt" afterPath="$PROJECT_DIR$/lib/Cake/VERSION.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/imageLoaded.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/footer.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/footer.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/lastpics.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/lastpics.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/neat.css" afterPath="$PROJECT_DIR$/app/webroot/css/neat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/slider_home.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/slider_home.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lausanne-guesthouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +30,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SocialAppController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Controller/SocialAppController.php">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247">
+            <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="570">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/footer.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="80" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1691">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Layouts/js/default.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastpics.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="18" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="798">
+              <folding>
+                <marker date="1393853320000" expanded="true" signature="1345:1370" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,76 +86,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
+      <file leaf-file-name="home.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.928572" vertical-offset="698" max-vertical-offset="1919">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flickr.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Model/Flickr.php">
+      <file leaf-file-name="slider_home.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/slider_home.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="342">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="570">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/ApiController.php">
+      <file leaf-file-name="neat.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/webroot/css/neat.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="475">
+            <state line="55" column="18" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.80624497" vertical-offset="38" max-vertical-offset="25042">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.ctp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/View/Elements/footer.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="232" selection-end="232" vertical-scroll-proportion="0.12086514" vertical-offset="19" max-vertical-offset="1691">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lastpics.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="27" selection-start="1915" selection-end="1915" vertical-scroll-proportion="-21.035715" vertical-offset="0" max-vertical-offset="779">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlickrHelper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Plugin/Social/View/Helper/FlickrHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="361">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="masonry.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/js/masonry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24945" selection-start="25081" selection-end="25081" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -179,14 +140,16 @@
         <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/ApiController.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/masonry.js" />
-        <option value="$PROJECT_DIR$/app/View/Elements/lastpics.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/footer.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/js/imageLoaded.js" />
+        <option value="$PROJECT_DIR$/app/View/Elements/lastpics.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Elements/slider_home.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/neat.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
     <option name="y" value="22" />
     <option name="width" value="2560" />
     <option name="height" value="1367" />
@@ -286,6 +249,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lausanne-guesthouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lausanne-guesthouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,6 +503,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lovesita" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -562,30 +548,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="22" width="2560" height="1367" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="2560" height="1367" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25575852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26370135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32889584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -607,109 +593,212 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Model/Flickr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7429">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="118" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="2071">
+        <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755">
+        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="475">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/footer.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1577">
+        <state line="73" column="80" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1691">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/js/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="7429">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2052">
+        <state line="33" column="41" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="836">
+          <folding>
+            <marker date="1393853320000" expanded="true" signature="1345:1370" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/imageLoaded.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6776" selection-start="6893" selection-end="6893" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="228">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastnews.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/View/Helper/FlickrHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7429">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/masonry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2052">
+        <state line="8" column="24945" selection-start="25081" selection-end="25081" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Controller/SocialAppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="118" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="2071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Vendor/phpflickr/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1900">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.928572" vertical-offset="698" max-vertical-offset="1919">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2318" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Model/Flickr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/footer.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="779">
+          <folding>
+            <marker date="1393853320000" expanded="true" signature="1345:1370" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/View/Helper/FlickrHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/masonry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24945" selection-start="25081" selection-end="25081" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="118" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="2071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="7429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="118" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="2071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Vendor/phpflickr/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2318" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Model/Flickr.php">
@@ -721,21 +810,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Social/Controller/SocialAppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="11.535714" vertical-offset="722" max-vertical-offset="7106">
-          <folding />
-        </state>
+        <state line="38" column="28" selection-start="1417" selection-end="1417" vertical-scroll-proportion="11.535714" vertical-offset="722" max-vertical-offset="7106" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="570">
+        <state line="16" column="58" selection-start="465" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
@@ -743,15 +828,6 @@
     <entry file="file://$PROJECT_DIR$/app/webroot/js/masonry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24945" selection-start="25081" selection-end="25081" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="1915" selection-end="1915" vertical-scroll-proportion="-21.035715" vertical-offset="0" max-vertical-offset="779">
           <folding />
         </state>
       </provider>
@@ -765,14 +841,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="475">
+        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="475">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Elements/footer.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="232" selection-end="232" vertical-scroll-proportion="0.12086514" vertical-offset="19" max-vertical-offset="1691">
+        <state line="73" column="80" selection-start="4291" selection-end="4291" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/js/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="829">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastnews.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="829">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/imageLoaded.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6776" selection-start="6893" selection-end="6893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/lastpics.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="798">
+          <folding>
+            <marker date="1393853320000" expanded="true" signature="1345:1370" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/slider_home.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/neat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="18" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.80624497" vertical-offset="38" max-vertical-offset="25042">
           <folding />
         </state>
       </provider>

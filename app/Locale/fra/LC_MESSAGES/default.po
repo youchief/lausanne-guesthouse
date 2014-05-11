@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2014-02-18 16:38+0000\n"
-"PO-Revision-Date: 2014-02-18 17:40+0100\n"
+"POT-Creation-Date: 2014-05-11 16:45+0000\n"
+"PO-Revision-Date: 2014-05-11 18:47+0100\n"
 "Last-Translator: Cyril <cyril@3xw.ch>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12,27 +12,27 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
 
-#: Controller/ContactsController.php:31
+#: Controller/ContactsController.php:36
 msgid "Thank you for your message. We contact you soon!"
 msgstr ""
 
-#: Controller/ContactsController.php:34;79;101
+#: Controller/ContactsController.php:39;87;109
 msgid "The contact could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/ContactsController.php:60;94;120
+#: Controller/ContactsController.php:68;102;128
 msgid "Invalid contact"
 msgstr ""
 
-#: Controller/ContactsController.php:76;98
+#: Controller/ContactsController.php:84;106
 msgid "The contact has been saved"
 msgstr ""
 
-#: Controller/ContactsController.php:124
+#: Controller/ContactsController.php:132
 msgid "Contact deleted"
 msgstr ""
 
-#: Controller/ContactsController.php:127
+#: Controller/ContactsController.php:135
 msgid "Contact was not deleted"
 msgstr ""
 
@@ -201,12 +201,16 @@ msgid "Invalid username or password, try again"
 msgstr ""
 
 #: Plugin/Social/Model/Datasource/FacebookSource.php:74
+#: Plugin/Social/Model/Datasource/SocialDataSource.php:101
 #: Plugin/Social/Model/Datasource/YoutubeSource.php:93
+#: Plugin/Social/Model/Datasource/_InstagramSource.php:70
 msgid "Transport error - could not open socket"
 msgstr ""
 
 #: Plugin/Social/Model/Datasource/FacebookSource.php:78
+#: Plugin/Social/Model/Datasource/SocialDataSource.php:104
 #: Plugin/Social/Model/Datasource/YoutubeSource.php:96
+#: Plugin/Social/Model/Datasource/_InstagramSource.php:73
 msgid "Transport error - HTTP status code was not 200"
 msgstr ""
 
@@ -215,15 +219,15 @@ msgid "Admin Add Contact"
 msgstr ""
 
 #: View/Contacts/admin_add.ctp:14 View/Contacts/admin_edit.ctp:15
-#: View/Contacts/index.ctp:63 View/Elements/footer.ctp:54
-#: View/Faqs/admin_add.ctp:17 View/Faqs/admin_edit.ctp:18
-#: View/LinkCategories/admin_add.ctp:10 View/LinkCategories/admin_edit.ctp:11
-#: View/Links/admin_add.ctp:12 View/Links/admin_edit.ctp:13
-#: View/News/admin_add.ctp:16 View/News/admin_edit.ctp:17
-#: View/NewsPics/admin_add.ctp:10 View/NewsPics/admin_edit.ctp:11
-#: View/RoomPics/admin_add.ctp:10 View/RoomPics/admin_edit.ctp:15
-#: View/Rooms/admin_add.ctp:31 View/Rooms/admin_edit.ctp:29
-#: View/Users/admin_add.ctp:11 View/Users/admin_edit.ctp:12
+#: View/Contacts/index.ctp:64 View/Faqs/admin_add.ctp:17
+#: View/Faqs/admin_edit.ctp:18 View/LinkCategories/admin_add.ctp:10
+#: View/LinkCategories/admin_edit.ctp:11 View/Links/admin_add.ctp:12
+#: View/Links/admin_edit.ctp:13 View/News/admin_add.ctp:16
+#: View/News/admin_edit.ctp:17 View/NewsPics/admin_add.ctp:10
+#: View/NewsPics/admin_edit.ctp:11 View/RoomPics/admin_add.ctp:10
+#: View/RoomPics/admin_edit.ctp:15 View/Rooms/admin_add.ctp:31
+#: View/Rooms/admin_edit.ctp:29 View/Users/admin_add.ctp:11
+#: View/Users/admin_edit.ctp:12
 msgid "Submit"
 msgstr "Envoyer"
 
@@ -231,7 +235,8 @@ msgstr "Envoyer"
 msgid "Admin Edit Contact"
 msgstr ""
 
-#: View/Contacts/admin_index.ctp:2 View/Elements/admin_menu.ctp:21
+#: View/Contacts/admin_index.ctp:2 View/Contacts/index.ctp:29
+#: View/Elements/admin_menu.ctp:21
 msgid "Contacts"
 msgstr ""
 
@@ -310,7 +315,7 @@ msgid "next"
 msgstr "suivant"
 
 #: View/Contacts/admin_view.ctp:2 View/Contacts/index.ctp:9
-#: View/Elements/footer.ctp:12 View/Elements/menu.ctp:22
+#: View/Elements/footer.ctp:12 View/Elements/menu.ctp:46
 msgid "Contact"
 msgstr ""
 
@@ -350,14 +355,14 @@ msgid "Delete Contact"
 msgstr ""
 
 #: View/Contacts/index.ctp:8 View/Elements/footer.ctp:7
-#: View/Elements/menu.ctp:17 View/Faqs/index.ctp:4
+#: View/Elements/menu.ctp:21 View/Faqs/index.ctp:4
 #: View/LinkCategories/index.ctp:6 View/News/view.ctp:4
 #: View/Pages/access.ctp:4 View/Pages/services.ctp:5 View/Rooms/index.ctp:6
 #: View/Rooms/view.ctp:5
 msgid "Home"
 msgstr "Accueil"
 
-#: View/Contacts/index.ctp:19 View/Elements/footer.ctp:42
+#: View/Contacts/index.ctp:19
 msgid "Contact us"
 msgstr "Nous contacter"
 
@@ -369,15 +374,19 @@ msgstr "Heures d'ouverture"
 msgid "Contact form"
 msgstr "Formulaire de contact"
 
-#: View/Contacts/index.ctp:70
+#: View/Contacts/index.ctp:74
+msgid "This is us"
+msgstr "C'est nous"
+
+#: View/Contacts/index.ctp:105
 msgid "How to find us?"
 msgstr "Comment nous trouver?"
 
-#: View/Contacts/index.ctp:79 View/Pages/access.ctp:25
+#: View/Contacts/index.ctp:114 View/Pages/access.ctp:25
 msgid "By plane"
 msgstr "En avion"
 
-#: View/Contacts/index.ctp:81 View/Pages/access.ctp:27
+#: View/Contacts/index.ctp:116 View/Pages/access.ctp:27
 msgid ""
 "From Geneva airport (Genève Cointrin): take the train to Lausanne (about 45 "
 "minutes). In Lausanne, exit the main hall, dir. train station place, and "
@@ -390,11 +399,11 @@ msgstr ""
 "tunnel, prendre à droite et ensuite encore à droite. Le Lausanne Guesthouse "
 "est à 5 minutes à pied de la gare."
 
-#: View/Contacts/index.ctp:89 View/Pages/access.ctp:35
+#: View/Contacts/index.ctp:124 View/Pages/access.ctp:35
 msgid "By train"
 msgstr "En train"
 
-#: View/Contacts/index.ctp:91 View/Pages/access.ctp:37
+#: View/Contacts/index.ctp:126 View/Pages/access.ctp:37
 msgid ""
 "Exit the main hall, dir. train station place, and turn left; the road goes "
 "down in a tunnel. Immediately after the tunnel, take right and next right "
@@ -406,11 +415,11 @@ msgstr ""
 "le tunnel, tourner à droite puis à nouveau à droite. Maximum 5 minutes à "
 "pied !"
 
-#: View/Contacts/index.ctp:101 View/Pages/access.ctp:47
+#: View/Contacts/index.ctp:136 View/Pages/access.ctp:47
 msgid "By car"
 msgstr "En voiture"
 
-#: View/Contacts/index.ctp:103 View/Pages/access.ctp:49
+#: View/Contacts/index.ctp:138 View/Pages/access.ctp:49
 msgid ""
 "Motorway A1 : take the Lausanne Sud exit and follow the train station "
 "direction. On the train station place, make a “U” turn, and go back in the "
@@ -422,11 +431,11 @@ msgstr ""
 "point et redescendez dans le tunnel. Immédiatement après le tunnel (avant le "
 "cinéma “Moderne”), prendre la première à droite puis à nouveau à droite."
 
-#: View/Contacts/index.ctp:111 View/Pages/access.ctp:57
+#: View/Contacts/index.ctp:146 View/Pages/access.ctp:57
 msgid "By foot"
 msgstr "A pied"
 
-#: View/Contacts/index.ctp:113 View/Pages/access.ctp:59
+#: View/Contacts/index.ctp:148 View/Pages/access.ctp:59
 msgid ""
 "From the train station: exit the main hall, direction train station place, "
 "and turn left. The road goes down in a tunnel. Immediately after the tunnel, "
@@ -448,12 +457,12 @@ msgid "Rooms"
 msgstr "Chambres"
 
 #: View/Elements/admin_menu.ctp:19 View/Elements/footer.ctp:11
-#: View/Elements/menu.ctp:21
+#: View/Elements/menu.ctp:41
 msgid "FAQ"
 msgstr ""
 
 #: View/Elements/admin_menu.ctp:20 View/Elements/footer.ctp:10
-#: View/Elements/menu.ctp:20 View/LinkCategories/index.ctp:7;16
+#: View/Elements/menu.ctp:36 View/LinkCategories/index.ctp:7;16
 #: View/Links/admin_index.ctp:2
 msgid "Links"
 msgstr "Liens"
@@ -462,12 +471,12 @@ msgstr "Liens"
 msgid "Logout"
 msgstr ""
 
-#: View/Elements/footer.ctp:8 View/Elements/menu.ctp:18
+#: View/Elements/footer.ctp:8 View/Elements/menu.ctp:26
 #: View/Pages/services.ctp:7;15
 msgid "Services"
 msgstr ""
 
-#: View/Elements/footer.ctp:9 View/Elements/menu.ctp:19
+#: View/Elements/footer.ctp:9 View/Elements/menu.ctp:31
 #: View/Rooms/index.ctp:7;14 View/Rooms/view.ctp:6
 msgid "Rates & Reservations"
 msgstr "Tarifs et Réservations"
@@ -476,11 +485,15 @@ msgstr "Tarifs et Réservations"
 msgid "Testmonials"
 msgstr "Témoignages"
 
+#: View/Elements/footer.ctp:42
+msgid "Labels"
+msgstr ""
+
 #: View/Elements/lastnews.ctp:17
 msgid "Read more"
 msgstr "En savoir plus"
 
-#: View/Elements/lastpics.ctp:5
+#: View/Elements/lastpics.ctp:3
 msgid "Last Pics"
 msgstr "Dernières photos"
 
@@ -650,11 +663,11 @@ msgstr "Accès"
 msgid "We are located close to the Lausanne train station (5 minutes on foot)"
 msgstr "Nous sommes situés à 5 minutes à pied de la gare de Lausanne"
 
-#: View/Pages/home.ctp:34
+#: View/Pages/home.ctp:8
 msgid "The Family Story"
 msgstr "L'histoire de la famille"
 
-#: View/Pages/home.ctp:37
+#: View/Pages/home.ctp:11
 msgid ""
 "of the Lausanne GuestHouse began in 1997 with the search for a building "
 "adapted to the ideas and the business-plan of the Elmiger brothers and "
@@ -671,11 +684,11 @@ msgstr ""
 "de transformation. Le 3 août 2001, la famille élargie à Laura, ouvre le « "
 "Lausanne GuestHouse & Backpacker » dans le bâtiment que vous connaissez"
 
-#: View/Pages/home.ctp:45
+#: View/Pages/home.ctp:19
 msgid "Our ambition"
 msgstr "Notre ambition"
 
-#: View/Pages/home.ctp:46
+#: View/Pages/home.ctp:20
 msgid ""
 "is to satisfy a demanding clientele with high standards of service, "
 "cleanliness and professionalism, offering the best value for money, while "
@@ -689,11 +702,11 @@ msgstr ""
 "par ailleurs contribuer à l’image dynamique et économiquement intéressante "
 "du tourisme lausannois et suisse."
 
-#: View/Pages/home.ctp:53
+#: View/Pages/home.ctp:27
 msgid "Ethically"
 msgstr "Ethique"
 
-#: View/Pages/home.ctp:54
+#: View/Pages/home.ctp:28
 msgid ""
 "\n"
 "we support socially responsible employment standards. The working conditions "
@@ -897,22 +910,20 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: /Users/cyril/Sites/lgh/app/Model/Contact.php:validation for field
-#: firstname;validation lastname;validation content Model/Faq.php:validation
-#: question;validation response Model/LinkCategory.php:validation name
-#: /Users/cyril/Sites/lgh/app/Model/News.php:validation title;validation body
-#: /Users/cyril/Sites/lgh/app/Model/Room.php:validation name;validation
-#: description Model/User.php:validation username;validation password
+#: Model/Contact.php:validation for field firstname;validation
+#: lastname;validation content Model/Faq.php:validation question;validation
+#: response Model/LinkCategory.php:validation name Model/News.php:validation
+#: title;validation body Model/Room.php:validation name;validation description
+#: Model/User.php:validation username;validation password
 msgid "notEmpty"
 msgstr ""
 
-#: /Users/cyril/Sites/lgh/app/Model/Contact.php:validation for field email
+#: Model/Contact.php:validation for field email
 msgid "email"
 msgstr ""
 
 #: Model/Link.php:validation for field link_category_id
-#: /Users/cyril/Sites/lgh/app/Model/NewsPic.php:validation news_id
-#: /Users/cyril/Sites/lgh/app/Model/Room.php:validation min_price;validation
-#: max_price /Users/cyril/Sites/lgh/app/Model/RoomPic.php:validation room_id
+#: Model/NewsPic.php:validation news_id Model/Room.php:validation
+#: min_price;validation max_price Model/RoomPic.php:validation room_id
 msgid "numeric"
 msgstr ""

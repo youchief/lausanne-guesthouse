@@ -16,7 +16,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="thumbnail info-thumbnail color-black">
                     <div class="caption">
-                        <h3><span class="fa fa-rocket"></span> <?php echo __('Our ambition')?></h3>
+                        <h3><span class="fa fa-rocket color-lead"></span> <?php echo __('Our ambition')?></h3>
                         <p class="description"><?php echo __('is to satisfy a demanding clientele with high standards of service, cleanliness and professionalism, offering the best value for money, while insuring the viability and permanence of our business entreprise. At the same time, we try to promote a dynamic and economically attractive image of tourism in the Lausanne region as well as in the rest of Switzerland.') ?></p>
                     </div>
                 </div>

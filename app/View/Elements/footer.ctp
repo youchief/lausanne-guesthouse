@@ -71,9 +71,11 @@
                         <p class="social">
                             <a href="https://www.facebook.com/lausanneguesthouse?fref=ts"><span
                                     class="fa fa-facebook"></span></a>
-                            <a href="/"><span class="fa fa-flickr"></span></a>
+                            <a href="http://www.flickr.com/photos/118585657@N03/"><span class="fa fa-flickr"></span></a>
                             <a href="https://fr.foursquare.com/v/lausanne-guesthouse--backpacker/4bc3ca72abf495210656c493"><span
                                     class="fa fa-foursquare"></span></a>
+                            
+                            <a href="/users/login"><span class="fa fa-lock"></span></a>
                         </p>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
                 <div class="row">
                         <div class="col-md-12">
                                 <?php echo $this->Session->flash(); ?>
-                                <h1><?php echo __('Contact us')?></h1>
+                                <h1><?php echo __('Contact us') ?></h1>
 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x478c2fd331f5e6ad%3A0x2b8e0ff5556c2607!2slausanne+guesthouse!5e0!3m2!1sfr!2sch!4v1390400135306" width="100%" height="450" frameborder="0" style="border:0"></iframe>    
                         </div>
@@ -26,7 +26,7 @@
                         <div class="col-sm-6 col-md-6">
                                 <div class="thumbnail info-thumbnail padding1 background-clouds color-black">
                                         <div class="caption background-white">
-                                                <h3><?php echo __('Contacts')?></h3>
+                                                <h3><?php echo __('Contacts') ?></h3>
                                                 <p><span class="fa fa-home color-lead"></span> Chemin des Epinettes 4 1007 Lausanne Switzerland</p>
                                                 <p><span class="fa fa-envelope color-lead"></span>  info@lausanne-guesthouse.ch</p>
                                                 <p><span class="fa fa-phone-square color-lead"></span> +41 21 601 80 00</p>
@@ -38,7 +38,7 @@
                         <div class="col-sm-6 col-md-6">
                                 <div class="thumbnail info-thumbnail padding1 background-clouds color-black">
                                         <div class="caption background-white">
-                                                <h3><?php echo __('Business hours')?></h3>
+                                                <h3><?php echo __('Business hours') ?></h3>
                                                 <p><strong class="color-lead">Monday-Sunday:</strong> 07:30 - 12:00  15:00-22:00</p>
 
                                         </div>
@@ -66,9 +66,43 @@
                                 </div>
                         </div>
                 </div>
+        </div>
+</section>
+<section>
+        <div class="container">
+                <div class="reduce-top-margin">
+                        <h1><?php echo __('This is us')?></h1>
+                        <div class="row">
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                        <?php echo $this->Html->image('anne-marie.png', array('class' => 'img-circle img-responsive')) ?>
+                                        <br>
+                                        <p class="text-center staff_name">Anne-Marie & Sticky</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+
+                                        <?php echo $this->Html->image('anne-marie-soeur.png', array('class' => 'img-circle img-responsive')) ?>
+                                        <br>
+                                        <p class="text-center staff_name">Laura</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                        <?php echo $this->Html->image('staffx.png', array('class' => 'img-circle img-responsive')) ?>
+                                        <br>
+                                        <p class="text-center staff_name">Virginie</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                        <?php echo $this->Html->image('corrado.png', array('class' => 'img-circle img-responsive')) ?>
+                                        <br>
+                                        <p class="text-center staff_name">Corrado</p>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</section>
+<section>
+        <div class="container">
                 <div class="row">
                         <div class="col-md-12"> 
-                                <h2><?php echo __('How to find us?') ?></h2>
+                                <h1><?php echo __('How to find us?') ?></h1>
                         </div>
                 </div>
                 <div class="row">
