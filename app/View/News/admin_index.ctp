@@ -12,11 +12,11 @@
                 <td>
                     <?php
                     if (empty($news['NewsPic']['url'])) {
-                        echo $this->Html->link(__('Add Pic'), array('controller' => 'newspics', 'action' => 'add', $news['News']['id']), array('class' => 'btn btn-default btn-xs'));
+                        echo $this->Html->link(__('Add Pic'), array('controller' => 'newsPics', 'action' => 'add', $news['News']['id']), array('class' => 'btn btn-default btn-xs'));
                     } else {
                         echo $this->Html->image($news['NewsPic']['url'], array('width' => '100px'));
                         echo "<br>";
-                        echo $this->Html->link(__('Edit Pic'), array('controller' => 'newspics', 'action' => 'edit', $news['NewsPic']['id']), array('class' => 'btn btn-default btn-xs'));
+                        echo $this->Html->link(__('Edit Pic'), array('controller' => 'newsPics', 'action' => 'edit', $news['NewsPic']['id']), array('class' => 'btn btn-default btn-xs'));
                     }
                     ?>
                 </td>

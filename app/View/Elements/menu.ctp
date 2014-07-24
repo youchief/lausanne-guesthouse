@@ -25,10 +25,10 @@
                                 }
                                 ?> ><?php echo $this->Html->link(__('Services'), '/services') ?></li>
                                 <li <?php
-                                        if ($this->here == '/rooms') {
-                                                echo "class='active'";
-                                        }
-                                        ?> ><?php echo $this->Html->link(__('Rates & Reservations'), array('controller' => 'rooms', 'action' => 'index')) ?></li>
+                                if ($this->here == '/rooms') {
+                                        echo "class='active'";
+                                }
+                                ?> ><?php echo $this->Html->link(__('Rates & Reservations'), array('controller' => 'rooms', 'action' => 'index')) ?></li>
                                 <li <?php
                                 if ($this->here == '/links') {
                                         echo "class='active'";
@@ -53,18 +53,19 @@
                                                 <li><?php echo $this->Html->link('DEU', array('controller' => 'app', 'action' => 'lang', 'deu')) ?></li>
                                         </ul>
                                 </li>
-                               
-                                
+
+
                                 <li>
-                                        <a href="https://www.facebook.com/lausanneguesthouse?fref=ts"><span
-                                                        class="fa fa-facebook"></span></a>
+                                        <a href="https://www.facebook.com/lausanneguesthouse?fref=ts" target="_blank"><span class="fa fa-facebook"></span></a>
                                 </li>
                                 <li>
-                                        <a href="http://www.flickr.com/photos/118585657@N03/"><span class="fa fa-flickr"></span></a>
+                                        <a href="https://plus.google.com/113563851942042840122/" target="_blank"><span class="fa fa-google-plus"></span></a>
                                 </li>
                                 <li>
-                                         <a href="https://fr.foursquare.com/v/lausanne-guesthouse--backpacker/4bc3ca72abf495210656c493"><span
-                                                        class="fa fa-foursquare"></span></a>
+                                        <a href="http://www.flickr.com/photos/118585657@N03/" target="_blank"><span class="fa fa-flickr"></span></a>
+                                </li>
+                                <li>
+                                        <a href="https://fr.foursquare.com/v/lausanne-guesthouse--backpacker/4bc3ca72abf495210656c493" target="blank"><span class="fa fa-foursquare"></span></a>
                                 </li>
                         </ul>
                 </div><!-- /.navbar-collapse -->
