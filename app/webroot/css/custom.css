@@ -48,3 +48,8 @@ width: 100%;
 .staff_name{
         font-size: 1.7em;
 }
+
+
+.nav>li.social>a {
+        padding: 5px;
+}

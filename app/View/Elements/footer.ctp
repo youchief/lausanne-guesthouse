@@ -23,21 +23,36 @@
                         <div class="col-md-5">
                                 <h3><?php echo __('Testmonials') ?></h3>
 
-                                <p class="testimonial">“À choisir sans hésitation !”
-                                        Propre, neuf, clair, ultra équipé, super bien situé (juste les trains à côté certes, mais
-                                        supportable pour moi avec les doubles vitrages) et en plus un petit jardin/terrasse pour prendre un
-                                        verre tranquille, je conseille sans hésitation si vous êtes de passage à Lausanne ! Possibilité même
-                                        de garer la voiture si pas trop grande (break on oublie !).</p>
+                                <p class="testimonial">“budget but luxury experience”<br>
+                                        Super easy to access from Lausanne train station. 
+                                        Room is super clean with Alps mountain and Geneva lake view, though the bed is not so comfortable.
+                                        Shared bathroom is only shared with another guest room. It is almost private. It is also spacious, well-maintained with wooden shelf for holding personal belongings during shower.
+                                        Everything is so perfect in my memory. We had several nice pictures in the backyard rose garden.
+                                        Common area is cosy and with free wifi. You even got printing service, though it is not free but not expensive either.
+                                        A nice over stay for exploring the lake area and the beautiful small towns including Vevey, montreux and Villeneuve, and the more than one thousand years old Château de Chillon!</p>
 
-                                <p class="author">jenveuxmille38 (TripAdvisor)</p>
+                                <p class="author">Jenny194 (TripAdvisor)</p>
 
-                                <p class="testimonial">“Rien à redire”
-                                        Après un petit faux départ avec une mauvaise compréhension de ma part sur le tarif, le réceptionniste a fait tout son possible pour me donner le max d'explication avec même une réduction au final! Demander conseil à l'accueil pour les endroits à visiter, ils sont tip top (je vous recommande la collection art brut, c'est renversant...). </p>
+                                <p class="testimonial">“Excellent rapport qualité/prix et emplacement”<br>
+                                        Je suis allé à Paléo Festival à Nyon et nous avons passé la nuit ici. Parfait ! Des trains desservent toute la nuit du Festival et cet endroit est juste à côté de la gare.
+L'emplacement et le bon rapport qualité/prix est aussi un super endroit si vous êtes escale à Lausanne.
+Accueil chaleureux à la réception, les chambres propres et confortables/dortoirs et des commodités pour couronner le tout.
+</p>
 
-                                <p class="author">EmmanuelG75017
+                                <p class="author">metze21
                                         (TripAdvisor)</p>
 
+                                <div id="TA_socialButtonBubbles218" class="TA_socialButtonBubbles">
+                                        <ul id="AEx9Zq7mxhP7" class="TA_links 1wgXlK1">
+                                                <li id="DXdKEWoc" class="BZpybf">
+                                                        <a target="_blank" href="http://www.tripadvisor.fr/Hotel_Review-g188107-d627754-Reviews-Lausanne_Guesthouse-Lausanne_Vaud.html"><img src="http://www.tripadvisor.fr/img/cdsi/img2/branding/socialWidget/20x28_green-21693-2.png"/></a>
+                                                </li>
+                                        </ul>
+                                </div>
+                                <script src="http://www.jscache.com/wejs?wtype=socialButtonBubbles&amp;uniq=218&amp;locationId=627754&amp;color=green&amp;size=rect&amp;lang=fr&amp;langversion=2"></script>
+
                         </div>
+
                         <div class="col-md-4">
                                 <h3><?php echo __('Labels') ?></h3>
                                 <div class="row">
@@ -46,14 +61,15 @@
                                                 <?php echo $this->Html->image('youhou.png', array('width' => '100%')) ?>
                                         </div>
                                         <div class="col-md-6 col-xs-3">
-                                                <div id="TA_certificateOfExcellence3" class="TA_certificateOfExcellence">
-                                                        <ul id="gtCPPLH" class="TA_links prWcBM">
-                                                                <li id="oKdbtPNcvG" class="E1r08zI9j">
-                                                                        <a target="_blank" href="http://www.tripadvisor.co.uk/"><img src="http://www.tripadvisor.co.uk/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+                                                <div id="TA_certificateOfExcellence171" class="TA_certificateOfExcellence">
+                                                        <ul id="yr0khvBzFJ" class="TA_links SdsXSzmg7">
+                                                                <li id="pWUmddOX" class="FvUZxXmlAcU">
+                                                                        <a target="_blank" href="http://www.tripadvisor.fr/"><img src="http://www.tripadvisor.fr/img/cdsi/img2/awards/CoE2014_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
                                                                 </li>
                                                         </ul>
                                                 </div>
-                                                <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=3&amp;locationId=627754&amp;lang=en_UK&amp;year=2014"></script>
+                                                <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=171&amp;locationId=627754&amp;lang=fr&amp;year=2014&amp;langversion=2"></script>
+
                                         </div>
                                 </div>
                                 <div class="row">
@@ -84,6 +100,7 @@
 
                                                         <a href="/users/login"><span class="fa fa-lock"></span></a>
                                                 </p>
+
                                         </div>
                                 </div>
                         </div>

@@ -54,17 +54,20 @@
                                         </ul>
                                 </li>
 
-
-                                <li>
+                                
+                                <li class="social">
                                         <a href="https://www.facebook.com/lausanneguesthouse?fref=ts" target="_blank"><span class="fa fa-facebook"></span></a>
                                 </li>
-                                <li>
-                                        <a href="https://plus.google.com/113563851942042840122/" target="_blank"><span class="fa fa-google-plus"></span></a>
+                                <li class="social">
+                                        <a href="https://plus.google.com/101687984632497472748/about?gl=US&hl=fr" target="_blank"><span class="fa fa-google-plus"></span></a>
                                 </li>
-                                <li>
-                                        <a href="http://www.flickr.com/photos/118585657@N03/" target="_blank"><span class="fa fa-flickr"></span></a>
+                                <li class="social">
+                                        <a href="https://twitter.com/LsnneGuesthouse" target="_blank"><span class="fa fa-twitter"></span></a>
                                 </li>
-                                <li>
+                                <li class="social">
+                                        <a href="http://instagram.com/LausanneGuesthouse" target="_blank"><span class="fa fa-instagram"></span></a>
+                                </li>
+                                <li class="social">
                                         <a href="https://fr.foursquare.com/v/lausanne-guesthouse--backpacker/4bc3ca72abf495210656c493" target="blank"><span class="fa fa-foursquare"></span></a>
                                 </li>
                         </ul>
